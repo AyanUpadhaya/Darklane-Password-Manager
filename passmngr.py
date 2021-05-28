@@ -28,11 +28,11 @@ def show_passwords():
 
 	print(f"Total number of entries :{entry_number}")
 
-print("Welcome to your offline password manager")
+print("Welcome to Darklane Password Manager")
 print("****************************************")
 
 print("Enter The Master Password")
-access=input()
+access=input('>')
 
 if access==ADMIN_PASS:
 	try:
